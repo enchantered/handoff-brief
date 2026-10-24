@@ -36,6 +36,8 @@ The CLI accepts 1–16 explicit relative `.md`/`.txt` paths under one trusted ro
 
 Markdown can carry misleading instructions as well as useful context. The output wrapper and code fences preserve display boundaries; **they do not neutralize prompt injection** in source text. Review the packet and only share trusted notes. Use a trusted directory and avoid pasting into tools that should not receive the data. There is no secret detector, encryption, access control, provider adapter, test-result verification, automatic redaction or remote storage. Concurrent hostile filesystem mutation is outside this prototype's threat model.
 
+The code and synthetic examples are original; no third-party source, dataset or media is bundled. This repository intentionally has no `LICENSE` file, so public visibility does not grant reuse rights. Research summaries link to their sources; each source remains under its own terms. No patent freedom-to-operate review has been performed.
+
 ## Tests
 
 ```sh
